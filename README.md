@@ -9,7 +9,7 @@ npm install audiobuffer-loader
 ```
 
 ### usage
-Loading a file requires an AudioContext, and results in an object containing both the decoded AudioBuffer and the size of the file that was loaded.
+Loading a file requires an `AudioContext`, and results in an object containing both the decoded `AudioBuffer` and the size of the file that was loaded.
 ```typescript
 import { loadAudioBuffer } from 'audiobuffer-loader';
 
