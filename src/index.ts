@@ -1,1 +1,1 @@
-export { loadAudioBuffer, ILoadAudioBufferResult } from './lib/webaudio-buffer-loader';
+export { loadAudioBuffer, ILoadAudioBufferResult } from './lib/audiobuffer-loader';

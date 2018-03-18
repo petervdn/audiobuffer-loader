@@ -1,7 +1,7 @@
 {
-  "name": "web-audio-buffer-loader",
+  "name": "audiobuffer-loader",
   "version": "1.0.1",
-  "description": "Load and decode soundfiles using the Web Audio API.",
+  "description": "Load and decode audiofiles using the Web Audio API.",
   "main": "./index.js",
   "types": "./index.d.ts",
   "scripts": {
@@ -54,11 +54,11 @@
     "decodeAudioData"
   ],
   "bugs": {
-    "url": "https://github.com/petervdn/webaudio-buffer-loader/issues"
+    "url": "https://github.com/petervdn/audiobuffer-loader/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/petervdn/webaudio-buffer-loader.git"
+    "url": "https://github.com/petervdn/audiobuffer-loader.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.35",
