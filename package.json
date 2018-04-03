@@ -48,6 +48,7 @@
   "keywords": [
     "webaudio",
     "web audio",
+    "load",
     "mp3",
     "wav",
     "decodeAudioData"

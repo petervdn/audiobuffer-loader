@@ -2,13 +2,13 @@
 
 Simple function to load and decode soundfiles using the Web Audio API. Supported filetypes are determined by the Web Audio API.
 
-### install
+## install
 
 ```sh
 npm install audiobuffer-loader
 ```
 
-### usage
+## usage
 Loading a file requires an `AudioContext`, and results in an object containing both the decoded `AudioBuffer` and the size of the file that was loaded.
 ```typescript
 import { loadAudioBuffer } from 'audiobuffer-loader';
