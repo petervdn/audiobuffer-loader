@@ -13,7 +13,7 @@ export interface ILoadAudioBufferResult {
 export function loadAudioBuffer(
   context: AudioContext,
   url: string,
-  onProgress: (value: number) => void,
+  onProgress?: (value: number) => void,
 ): Promise<ILoadAudioBufferResult> {
   return new Promise((resolve, reject) => {
     const request = new XMLHttpRequest();
