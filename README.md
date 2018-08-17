@@ -31,3 +31,8 @@ loadAudioBuffer(context, 'samples/orbit.mp3', progress => {
 
 Note that this callback will not be fired at all during decoding (which happens after a file is loaded). This may not be noticable for smaller files, but when you have files containing many minutes of audio the progress will not change for a while. 
 
+## errors
+The returned promise will be rejected when loading or decoding fails.
+
+## load more files
+If you need to load multiple files, you might be interested in this [sample manager](https://github.com/petervdn/sample-manager). 
